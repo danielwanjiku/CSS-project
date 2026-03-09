@@ -1,3 +1,17 @@
+@media screen and (max-width: 600px) {
+    /* CSS for mobile devices */
+    body {
+        font-size: 14px; /* Slightly smaller font size for better readability on smaller screens */
+    }
+    .navbar li {
+        display: block; /* Stack navigation items vertically on smaller screens */
+        padding: 10px; /* Less padding for navigation items on smaller screens */
+    }
+    .image img {
+        width: 100%; /* Make images responsive and take full width on smaller screens */
+        height: auto; /* Maintain aspect ratio of images */
+    }
+}
 /* CSS for the website */
 /* Importing the Roboto font from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
